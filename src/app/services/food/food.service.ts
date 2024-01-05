@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import * as data from '../../../../db.json';
 
 
 @Injectable({
@@ -10,7 +11,8 @@ export class FoodService {
 
   constructor(private http:HttpClient) { }
 
-  getData(): Observable<any>{
-    return this.http.get('http://localhost:3000/foods');
+  getData(){
+    // return this.http.get('http://localhost:3000/foods');
+    return data.foods;
   }
 }

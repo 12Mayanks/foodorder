@@ -1,5 +1,7 @@
 .card{
-    margin-top:1rem ;
+    /* margin-top:1rem; */
+    width: 100%;
+    margin: 1rem 0rem 1rem 0rem;
 }
 .card-body{
     position: relative;
@@ -7,7 +9,7 @@
 }
 .card-title{
     color: rgb(216, 0, 25);
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 .card-text{
     color:rgb(66, 66, 66);
@@ -16,14 +18,14 @@
     margin-bottom: 0;
 }
 .favorite{
-    color: rgb(216, 0, 25);
+    color: rgb(170, 0, 0);
     position: absolute;
-    font-size: 25px;
+    font-size: 2rem;
     top: 0rem;
     right: 1rem;
 }
 .favorite.not{
-    color: rgb(0, 0, 0);
+    color: rgba(41, 41, 41, 0.979);
 }
 .food-detail-footer span{
     color: grey;
