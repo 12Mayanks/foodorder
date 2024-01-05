@@ -1,0 +1,53 @@
+.card{
+    margin-top:1rem ;
+}
+.card-body{
+    position: relative;
+    padding: 0.5rem 1rem;
+}
+.card-title{
+    color: rgb(216, 0, 25);
+    font-size: 20px;
+}
+.card-text{
+    color:rgb(66, 66, 66);
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+.favorite{
+    color: rgb(216, 0, 25);
+    position: absolute;
+    font-size: 25px;
+    top: 0rem;
+    right: 1rem;
+}
+.favorite.not{
+    color: rgb(0, 0, 0);
+}
+.food-detail-footer span{
+    color: grey;
+    background-color: whitesmoke;
+    display: inline-block;
+    font-size: .8rem;
+    font-weight: lighter;
+    padding: .2rem;
+    border-radius: 2px;
+} 
+.clock-time{
+    color: rgb(216, 0, 25);
+    font-size: .8rem;
+    font-weight: lighter;
+}
+.price span{
+    color: rgb(216, 0, 25);
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.details-footer{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}

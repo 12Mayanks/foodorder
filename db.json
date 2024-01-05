@@ -1,0 +1,92 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "foodname": "Pepproni Pizza",
+      "fooddesc": "typicode",
+      "imgUrl": "assets/img/food-1.jpg",
+      "favorite":true,
+      "ratings": 4.0,
+      "origin":"Indian",
+      "time":"20-30",
+      "price": 6
+    },
+    {
+      "id": 2,
+      "foodname": "MeatBall",
+      "fooddesc": "typicode",
+      "imgUrl": "assets/img/food-2.jpg",
+      "favorite":false,
+      "ratings": 4.0,
+      "origin":"Middle East China",
+      "time":"10-40",
+      "price": 3
+    },
+    {
+      "id": 3,
+      "foodname": "Hamburger",
+      "fooddesc": "typicode",
+      "imgUrl": "assets/img/food-3.jpg",
+      "favorite":true,
+      "ratings": 4.0,
+      "origin":"Germany US",
+      "time":"20-40",
+      "price": 5
+    },
+    {
+      "id": 4,
+      "foodname": "Fried Potatoes",
+      "fooddesc": "typicode",
+      "imgUrl": "assets/img/food-4.jpg",
+      "favorite":false,
+      "ratings": 4.0,
+      "origin":"Belgium",
+      "time":"30-50",
+      "price": 6
+    },
+    {
+      "id": 5,
+      "foodname": "Pepproni Pizza",
+      "fooddesc": "typicode",
+      "imgUrl": "assets/img/food-5.jpg",
+      "favorite":true,
+      "ratings": 4.0,
+      "origin":"Indian Asia",
+      "time":"30-40",
+      "price": 8
+    },
+    {
+      "id": 6,
+      "foodname": "Chicken Soup",
+      "fooddesc": "typicode",
+      "imgUrl": "assets/img/food-6.jpg",
+      "favorite":true,
+      "ratings": 4.0,
+      "origin":"Indian",
+      "time":"10-25",
+      "price": 10
+    },
+    {
+      "id": 7,
+      "foodname": "Veg Spicy Cheese Burger",
+      "fooddesc": "typicode",
+      "imgUrl": "assets/img/food-7.jpg",
+      "favorite":true,
+      "ratings": 4.0,
+      "origin":"Italy",
+      "time":"15-20",
+      "price": 12
+    },
+    {
+      "id": 8,
+      "foodname": "Veg Spicy Pizza",
+      "fooddesc": "typicode",
+      "imgUrl": "assets/img/food-8.jpg",
+      "favorite":false,
+      "ratings": 4.0,
+      "origin":"Indian",
+      "time":"25-30",
+      "price": 7
+    }
+  ]
+}

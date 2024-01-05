@@ -1,0 +1,13 @@
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar {
+    padding: 1rem;
+    background-color: rgb(55, 55, 55) !important;
+}
+
+.logo {
+    color: rgb(243, 65, 0);
+    font-weight: 500;
+}

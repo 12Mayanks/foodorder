@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3" *ngFor="let item of foods">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" [src]="item.imgUrl" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{ item.foodname }}</h5>
+          <span class="favorite {{ item.favorite ? '': 'not' }}">♥</span>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="details-footer">
+            <div class="food-detail-footer">
+              <span>{{ item.origin }}</span>
+            </div>
+            <div class="clock-time">🕑
+              <span>{{ item.time }} min.</span>
+            </div>
+          </div>
+          <div class="price">
+            <span>{{ item.price | currency }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
